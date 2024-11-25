@@ -20,6 +20,7 @@ public class SecurityConfiguration {
         httpSecurity.authorizeHttpRequests(authorize ->
                 authorize
                         .requestMatchers(HttpMethod.GET, "/api/products-shop/**").permitAll()
+                        .requestMatchers(HttpMethod.GET, "/actuator/health").permitAll()
                         .requestMatchers("/api/**").authenticated())
                 .csrf(AbstractHttpConfigurer::disable)
                 .oauth2ResourceServer(

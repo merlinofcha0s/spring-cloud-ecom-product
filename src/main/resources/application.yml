@@ -73,8 +73,8 @@ application:
     exposed-headers: "*"
     allow-credentials: false
     max-age: 300
-  jwt:
-    base64-secret: ZTlkOWNiMWU1ZjA1OTgwNDNkNWQwZDE0ZjgyMTFmMTY0ZTc5NDk4OTQxZjdmODlhNTMyODllYjEwNTAxMDYwZjBkZWY4ZGY1YTAxNDg5YTYxYzY0NWQ0ZGVjYzJmNTM2NGI0M2ZmMGU3NjA2MDBiMGMzMDU0ZTY4NWIzMTNjNzA
+#  jwt:
+#    base64-secret: ZTlkOWNiMWU1ZjA1OTgwNDNkNWQwZDE0ZjgyMTFmMTY0ZTc5NDk4OTQxZjdmODlhNTMyODllYjEwNTAxMDYwZjBkZWY4ZGY1YTAxNDg5YTYxYzY0NWQ0ZGVjYzJmNTM2NGI0M2ZmMGU3NjA2MDBiMGMzMDU0ZTY4NWIzMTNjNzA
   logstash:
     host: localhost
     port: 5000
